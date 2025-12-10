@@ -6,7 +6,7 @@ import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "@/co
 import { useCart } from "@/lib/cart-context"
 import Image from "next/image"
 
-const WHATSAPP_NUMBER = "11945374081" // Replace with your WhatsApp number
+const WHATSAPP_NUMBER = "5511945374081" // Replace with your WhatsApp number
 
 export function CartDrawer() {
   const { items, removeFromCart, updateQuantity, getTotalItems, getWhatsAppMessage, clearCart } = useCart()

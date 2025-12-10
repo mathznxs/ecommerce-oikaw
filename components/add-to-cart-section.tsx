@@ -7,7 +7,7 @@ import { MessageCircle, ShoppingCart, Check } from "lucide-react"
 import { useCart } from "@/lib/cart-context"
 import type { Product } from "@/lib/types"
 
-const WHATSAPP_NUMBER = "11945374081"
+const WHATSAPP_NUMBER = "5511945374081"
 
 interface AddToCartSectionProps {
   product: Product
